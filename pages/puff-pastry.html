@@ -4,16 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cinnamon Rolls - (Name) Bakery</title>
-	<link rel="stylesheet" href="../css/index.css">
-	<link rel="stylesheet" href="../css/grid.css">
-	<link rel="stylesheet" href="../css/work.css">
+	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/grid.css">
+	<link rel="stylesheet" href="/css/work.css">
 </head>
 <body>
 	
 	<section class="inline">
-		<button onclick="redirect('../products.html')" id="back">← Back</button>
+		<button onclick="redirect('/products.html')" id="back">← Back</button>
 		<div class="center">
-			<img src="../img/puff-pastry.jpg" alt="">
+			<img src="/img/puff-pastry.jpg" alt="">
 			<div class="span">
 				<h1>Puff Pastries</h1>
 				<p>$6.00 USD</p>
@@ -21,12 +21,7 @@
 			<p class="desc">Multiple delicate layers give these puff pastries a unique and unforgettable taste, accentuated by the wonderful cherries in the center</p>
 		</div>
 	</section>
-	<script>
-		function redirect(addr)
-		{
-			console.log(addr);
-			window.location.href = addr;
-		}
+	<script src="/js/redir.js">
 	</script>
 </body>
 </html>

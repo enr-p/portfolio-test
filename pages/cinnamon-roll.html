@@ -4,15 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title id="title">Cinnamon Rolls - (Name) Bakery</title>
-	<link rel="stylesheet" href="../css/index.css">
-	<link rel="stylesheet" href="../css/grid.css">
-	<link rel="stylesheet" href="../css/work.css">
+	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/grid.css">
+	<link rel="stylesheet" href="/css/work.css">
+	
 </head>
 <body>
 	<section class="inline">
-		<button onclick="redirect('../products.html')" id="back">← Back</button>
+		<button onclick="redirect('/products.html')" id="back">← Back</button>
 		<div class="center">
-			<img src="../img/cinnamon-rolls.jpg" alt="">
+			<img src="/img/cinnamon-rolls.jpg" alt="">
 			<div class="span">
 				<h1 id="h1">Cinnamon Rolls/h1>
 				<p>$6.00 USD</p>
@@ -21,12 +22,7 @@
 		</div>
 	</section>
 	
-	<script>
-		function redirect(addr)
-		{
-			console.log(addr);
-			window.location.href = addr;
-		}
+	<script src="/js/redir.js">
 	</script>
 </body>
 </html>
