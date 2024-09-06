@@ -56,7 +56,8 @@ button {
 	outline: none;
 	margin-bottom: 10px;
 	cursor: pointer;
-	background-color: #aaa;
+	background-color: var(--dark-red);
+	color: var(--white);
 }
 button:hover {
 	background-color: #ccc;
