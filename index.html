@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>(Name) Bakery</title>
-	<link rel="stylesheet" href="/css/index.css">
-	<link rel="stylesheet" href="/css/grid.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/grid.css">
 </head>
 <body>
 	<!-- <section class="inline">
@@ -13,46 +13,46 @@
 	</section> -->
 	<div class="backgroundfill">
 		<h1 class="title" id="bakery">(Name) Bakery</h1>
-		<img src="/img/bakery-background.jpg" alt="" srcset="">
+		<img src="./img/bakery-background.jpg" alt="" srcset="">
 	</div>
 	<section class="tag second fadein">
 		<h1 class="dprod title">Featured Products:</h1>
 		<div class="grid fadein">
 			<div class="display flexdircol marginzero ">
-				<img src="/img/croissant-square.jpg" alt="">
+				<img src="./img/croissant-square.jpg" alt="">
 				<h1>Croissant</h1>
 				<p>$5.50 USD</p>
-				<button class="info" onclick="redirect('/pages/croissant.html')">More Info.</button>
+				<button class="info" onclick="redirect('./pages/croissant.html')">More Info.</button>
 			</div>
 			<div class="display flexdircol marginzero">
-				<img src="/img/cinnamon-rolls-square.jpg" alt="">
+				<img src="./img/cinnamon-rolls-square.jpg" alt="">
 				<h1 id="cinroll">Cinnamon Rolls</h1>
 				<p>$6.00 USD</p>
-				<button class="info" onclick="redirect('/pages/cinnamon-rolls.html')">More Info.</button>
+				<button class="info" onclick="redirect('./pages/cinnamon-rolls.html')">More Info.</button>
 			</div>
 			
 		</div>
 		<div class="center lastdiv">
 	
-			<button onclick="redirect('/products.html')" id="aprod">All Products.</button>
+			<button onclick="redirect('./products.html')" class="fadein">All Products.</button>
 		</div>
 	</section>
 	<section class="tag third fadein">
-		<h1>What we do:</h1>
-		<div class="wwd">
+		<h1 class="fadein">What we do:</h1>
+		<div class="wwd fadein">
 			<p>Here at (Name) Bakery, we specialize in afforable, high-quality pastries made with ingredients of equally high quality.</p>
 		</div>
 	</section> 
 	<section class="tag fourth fadein">
-		<h1>Contact us:</h1>
-		<div class="grid flexdircol center">
+		<h1 class="fadein">Contact us:</h1>
+		<div class="grid flexdircol center fadein">
 			<div class="display flexdircol marginzero ">
 				<img src="./img/whatsapp-logo.png" alt="">
 				<h1>Whatsapp</h1>
 				<p>XX-XXXX-XXXX</p>
 				<button>Contact us</button>
 			</div>
-			<div class="display flexdircol marginzero ">
+			<div class="display flexdircol marginzero fadein">
 				<img src="/img/gmail-logo.png" alt="">
 				<h1>E-Mail</h1>
 				<p>example@domain.com</p>
@@ -78,6 +78,6 @@
 		}
 		});
 	</script>
-	<script src="/js/redir.js"></script>
+	<script src="./js/redir.js"></script>
 </body>
 </html>
