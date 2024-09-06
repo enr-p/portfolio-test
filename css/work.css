@@ -1,0 +1,18 @@
+.inline {
+	padding: 20px;
+}
+img {
+	max-width: 75vw;
+}
+.center {
+	flex-direction: column;
+	padding-top: 20px;
+	background-color: #ebebeb;
+}
+.span {
+	display: inline-block;
+	text-align: center;
+}
+.desc {
+	max-width: 40%;
+}

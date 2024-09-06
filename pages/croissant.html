@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Croissants - (Name) Bakery.</title>
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/grid.css">
+	<link rel="stylesheet" href="../css/work.css">
+</head>
+<body>
+	
+	<section class="inline">
+		<button onclick="redirect('../products.html')" id="back">← Back</button>
+		<div class="center">
+			<img src="../img/croissant.jpg" alt="">
+			<div class="span">
+				<h1>Croissants</h1>
+				<p>$5.50 USD</p>
+			</div>
+			<p class="desc">These croissants are one of the best options for a good breakfast. With their crunchy and delicious exterior, they pair well with a warm cup of coffee.</p>
+		</div>
+	</section>
+	<script>
+		function redirect(addr)
+		{
+			console.log(addr);
+			window.location.href = addr;
+		}
+	</script>
+</body>
+</html>

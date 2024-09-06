@@ -1,0 +1,44 @@
+{
+	"cinroll":{
+		"en": {
+			"title": "Cinnamon Rolls",
+			"h1": "Cinnamon Rolls",
+			"desc": "Made with warn dough, filled with cinnamon, and decorated with an exquisite glaze, these cinnamon rolls are the best way to spend an afternoon with friends."
+		},
+		"es": {
+			"title": "Rollos de Canela",
+			"h1": "Rollos de Canela",
+			"desc": "Hecho con masa caliente, relleno con canela y decorado con un exquisito glaceado, estos son la mejor forma de pasar un atardecer con amigos."
+		}
+	},
+	"global": {
+		"en": {
+			"back": "← Back",
+			"bakery": "(Name) Bakery",
+			"lang": "ES"
+		},
+		"es": {
+			"back": "← Atrás",
+			"bakery": "Panadería (Nombre)",
+			"lang": "EN"
+		}
+	},
+	"index": {
+		"en": {
+			"bakery": "(Name) Bakery",
+			"info": "More Info.",
+			"aprod": "All products",
+			"dprod": "Featured Products",
+			"cinroll": "Cinnamon Rolls"
+		},
+		"es": {
+			"bakery": "Panadería (Nombre)",
+			"info": "Más Info.",
+			"aprod": "Todos los productos",
+			"dprod": "Productos Destacados:",
+			"cinroll": "Rollos de Canela"
+		}
+
+	},
+	"current":"en"
+}

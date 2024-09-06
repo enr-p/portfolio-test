@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>(Name) Bakery</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/grid.css">
+</head>
+<body>
+	<!-- <section class="inline">
+		<button onmousedown="changeLang('index')" id="lang">EN</button>
+	</section> -->
+	<div class="backgroundfill">
+		<h1 class="title" id="bakery">(Name) Bakery</h1>
+		<img src="./img/bakery.jpg" alt="" srcset="">
+	</div>
+	<section class="tag second">
+		<h1 class="dprod">Featured Products:</h1>
+		<div class="grid fadein">
+			<div class="display flexdircol marginzero ">
+				<img src="./img/croissant-square.jpg" alt="">
+				<h1>Croissant</h1>
+				<p>$5.50 USD</p>
+				<button class="info" onclick="redirect('./pages/croissant.html')">More Info.</button>
+			</div>
+			<div class="display flexdircol marginzero">
+				<img src="./img/cinnamon-rolls-square.jpg" alt="">
+				<h1 id="cinroll">Cinnamon Rolls</h1>
+				<p>$6.00 USD</p>
+				<button class="info" onclick="redirect('./pages/cinnamon-rolls.html')">More Info.</button>
+			</div>
+			
+		</div>
+		<div class="center fadein">
+	
+			<button onclick="redirect('./products.html')" id="aprod">All Products.</button>
+		</div>
+	 </section>
+	<!--<section class="tag third">
+		<h1>Contact us:</h1>
+	</section> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script>
+		
+		$(document).on("scroll", function() {
+		var pageTop = $(document).scrollTop();
+		var pageBottom = pageTop + $(window).height();
+		var tags = $(".tag");
+
+		for (var i = 0; i < tags.length; i++) {
+			var tag = tags[i];
+			if ($(tag).position().top < pageBottom) {
+			$(tag).addClass("visible");
+			} else {
+			$(tag).removeClass("visible");
+			}
+		}
+		});
+	</script>
+	<script src="./js/redir.js"></script>
+</body>
+</html>
