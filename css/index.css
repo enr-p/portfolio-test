@@ -16,6 +16,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	width:100vw;
 	background-color: var(--dark-red);
 }
 @keyframes fadeInAnimation {
@@ -64,10 +65,6 @@ button:hover {
 button:active {
 	background-color: var(--dark-red);
 }
-.tabcontent {
-	padding: 6px 12px;
-	border-top: none;
-}
 .center {
 	display: flex;
 
@@ -75,12 +72,11 @@ button:active {
 	align-items: center;
 }
 
-section {
-	height: calc(fit-content + 33vh);
-}
 .tag {
 	opacity: 0;
-	transform: translate(0, 10vh);
+	height: fit-content;
+	transform: translate(0, 20vh);
+	width: 100%;
 	transition: all 1s;
 	background-color: var(--white);
 }
@@ -91,10 +87,28 @@ section {
 .backgroundfill > img {
 	width: 100%;
 }
-.second {
-	padding-top: 5px
+.second / .third{
+	padding-top: 5px;
+}
+.flexdirrow {
+	display: flex;
+	flex-direction: row;
 }
 
 #back {
 	position: absolute;
+}
+.wwd {
+	max-width: 50%;
+}
+.third {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.lastdiv {
+	margin-bottom: 45px;
+}
+.whatsapp {
+	width: 42px;
 }
