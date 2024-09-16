@@ -95,9 +95,6 @@ button:active {
 	flex-direction: row;
 }
 
-#back {
-	position: absolute;
-}
 .wwd {
 	max-width: 50%;
 }
