@@ -132,3 +132,9 @@ button:active {
 	align-self: center;
 	
 }
+.inline2 {
+	padding: 20px 20px 0 ;
+}
+.inline2 button {
+	margin: 0;
+}
